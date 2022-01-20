@@ -9,7 +9,7 @@ print(10%3, 3%10) # print remainders from divisions
 #%%
 astring = "Thank you"
 anum = 3.14159265358979323846
-cnt = 1
+cnt = 3
 # Many different ways to print out the same line
 print("%d. I want to say %s" % (cnt,astring) )
 cnt+=1
@@ -17,9 +17,9 @@ print(cnt,". I want to say" + astring )
 cnt+=1
 print(cnt, ". I want to say",astring )
 cnt+=1
-print("%d. I want to say %s, my sweetie %.3f" % (cnt,astring,anum) )
+print("%d. I want say %s, my sweetie %.3f" % (cnt,astring,anum) )
 cnt+=1
-print("%d. I want to say %s, my sweetie digit %d" % (cnt,astring,anum) )
+print("%d. I say %s, my sweetie digit %d" % (cnt,astring,anum) )
 cnt+=1
 print("%d. I want to say %s, my sweetie long %f" % (cnt,astring,anum) )
 cnt+=1
